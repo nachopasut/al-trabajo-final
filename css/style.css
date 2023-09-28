@@ -1,0 +1,104 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+.imagen{
+ 
+   width: 100%;
+}
+.texto-superpuesto {
+    position: absolute; /* Establece el texto como posición absoluta */
+    top: 40%; /* Alinea el texto verticalmente en el centro */
+    left: 50%; /* Alinea el texto horizontalmente en el centro */
+    transform: translate(-50%, -50%); /* Centra el texto correctamente */
+    color: white; /* Color del texto */
+    padding: 10px; /* Espacio interior alrededor del texto */
+    text-align: center; /* Alinea el texto en el centro */
+}
+  .background {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    display: flex;
+    justify-content: center;
+}
+.box input {
+    height: 50px;
+    width: 400px;
+    margin: 1vh;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #ffff;
+    border-radius: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    outline: none;
+    border: none;
+    font-size: medium;
+    font-weight: 500;
+    transition: 0.8
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 50px;
+    margin: 20px;
+} 
+
+/* Estilos para la imagen */
+.card img {
+    max-width: 100%;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Estilos para el botón */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos adicionales para el texto del botón */
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Efecto de zoom en la imagen al pasar el cursor sobre ella */
+.card:hover img {
+    transform: scale(1.03);
+}
+
+.TituloProduc{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+header{
+    height: 88vh;
+    background-image: url(../img/500days.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+
+.Definicion{
+    display: flex;
+ justify-content: center;
+}
